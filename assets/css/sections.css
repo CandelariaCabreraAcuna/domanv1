@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 219, 223);
+  max-height: max-content;
+}
+
+.containerinscription{
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+}
+.infoinscription{
+  flex: 1 1 350px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: thistle;
+}
+.infoinscription:hover{
+border: 3px solid rgb(199, 123, 136);
+}
+
+
+.titleimg{
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  margin: 10px;
+}
+p{
+ padding: 20px;
+ font-family: "Poppins", sans-serif;
+ font-weight: 300;
+}
