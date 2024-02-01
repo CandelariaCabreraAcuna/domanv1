@@ -2235,15 +2235,12 @@ responsive
 }
 
 .valores > p {
-  color: #56239a;
+  color: #ffffff;
   font-weight: 400;
-  border-radius: 10%; 
   padding: 45px; 
   overflow: hidden;
   word-wrap: break-word; 
   transition: transform 0.5s ease; 
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -2252,7 +2249,7 @@ responsive
 
 .valores > p:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 10px #726ae3;
+  background: radial-gradient(#f588d8, #c0a3e5);
 }
 .imgvalores {
   width: 150%;
