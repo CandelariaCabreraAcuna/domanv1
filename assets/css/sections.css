@@ -6,13 +6,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: #FCBAAD;
+  background: url(../images/picturesDOMAN/background\ info.jpg) no-repeat;
 }
 
 body .container {
@@ -36,17 +37,7 @@ body .container .card {
   transition: 0.5s;
 }
 
-body .container .card:nth-child(1) .box .content a {
-  background: #2196f3;
-}
 
-body .container .card:nth-child(2) .box .content a {
-  background: #e91e63;
-}
-
-body .container .card:nth-child(3) .box .content a {
-  background: #23c186;
-}
 
 body .container .card .box {
   position: absolute;
@@ -54,7 +45,7 @@ body .container .card .box {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #2a2b2f;
+  background: #beb1cd;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -65,6 +56,7 @@ body .container .card .box {
 
 body .container .card .box:hover {
   transform: translateY(-50px);
+  background: #ddbccd;
 }
 
 body .container .card .box:before {

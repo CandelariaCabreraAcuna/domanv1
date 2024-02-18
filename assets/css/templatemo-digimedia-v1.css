@@ -404,6 +404,10 @@ header
   width: 120px;
   height: 80px;
 }
+.logo > img{
+  width: 70px;
+  height: 75px;
+}
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
@@ -777,7 +781,7 @@ header
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #fa65b1!important;
-    opacity: 1;
+    /*opacity: 1;*/
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
@@ -2270,7 +2274,7 @@ responsive
 .imgvalores {
   width: 150%;
   height: 150%;
-  border-radius: 50%; /* Hace que la imagen sea circular */
+  border-radius: 50%; 
   overflow: hidden; /* Asegura que la imagen siga siendo circular */
   transition: transform 0.5s ease; /* Agrega una animación de transformación de 0.5 segundos con efecto ease */
 }
